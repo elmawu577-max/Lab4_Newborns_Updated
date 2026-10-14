@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f31d7fcd0a14c01b5911dc260e26101, type: 3}
+  m_Name: GameStateData
+  m_EditorClassIdentifier: Assembly-CSharp::GameStateData
+  currentScore: 0
+  highScore: 0
+  mushroomSpeedMultiplier: 1.5
+  mushroomDuration: 6
+  backgroundMusic: {fileID: 8300000, guid: a396fb5db437f453d89c54963e7b9719, type: 3}
+  powerupSpawnSound: {fileID: 8300000, guid: 97a450c65284a4a3094ba5c2221a492b, type: 3}
+  powerupCollectSound: {fileID: 8300000, guid: 26301d2e86e99420599e315297a825df, type: 3}
+  goombaStompSound: {fileID: 8300000, guid: d84415726495b4d46b5a557ed2a97cfa, type: 3}
+  gameOverSound: {fileID: 8300000, guid: 6fd1f18ce7cdf476a84bc81adc494f51, type: 3}
+  pauseSound: {fileID: 8300000, guid: 5aec150c938c24103aaf3606c480427c, type: 3}
